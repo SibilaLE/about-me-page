@@ -1,0 +1,15 @@
+.background-image {
+  background-image: url("./coding3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 150px;
+}
