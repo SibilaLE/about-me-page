@@ -1,3 +1,9 @@
+.color-bar {
+  background: rgba(174, 198, 206, 1);
+}
+.active {
+  text-decoration: overline;
+}
 .background-image {
   background-image: url("./coding3.jpeg");
   background-size: cover;
@@ -7,9 +13,118 @@ h1 {
   text-align: center;
   color: white;
   padding-top: 150px;
+  padding-bottom: 40px;
+  font-size: 50px;
 }
 h2 {
   text-align: center;
   color: white;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+.knowledge-band {
+  background-color: rgb(244, 237, 233);
+}
+h3 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  padding: 16px 0px 14px;
+}
+h4 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin: 50px 0px 90px 0px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+}
+.button-a {
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid white;
+  padding: 8px 10px;
+  margin-bottom: 70px;
+}
+.button-a:hover {
+  background: rgb(132, 164, 174);
+  color: white;
+  transition: all 200ms ease-in-out;
+  font-size: 21.5px;
+}
+.icon-knowledge {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 42px;
+}
+.icon-knowledge-lang {
+  font-size: 9px;
+  color: rgb(96, 94, 94);
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+.button-a-second {
+  font-size: 21px;
+  text-decoration: none;
+  color: rgb(132, 164, 174);
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px 14px;
+  border: 2px solid rgb(132, 164, 174);
+}
+.button-a-second:hover {
+  background: rgb(132, 164, 174);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.title-project {
+  font-size: 18px;
+  color: rgb(96, 94, 94);
+}
+.h2 {
+  text-align: center;
+  color: black;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+p {
+  line-height: 1.8;
+  color: rgb(96, 94, 94);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.button-b {
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+  background: rgb(132, 164, 174);
+  border-radius: 12px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+.button-b:hover {
+  background: white;
+  color: rgb(132, 164, 174);
+  transition: all 200ms ease-in-out;
+  font-size: 21.5px;
+  border: 2px solid rgb(132, 164, 174);
+}
+.container-body {
+  margin: 0px 140px;
+}
+.picture-project {
+  text-align: center;
+}
+.icon-social-media {
+  font-size: 63px;
+}
+.purple-icon {
+  color: rgb(127, 79, 205);
 }
